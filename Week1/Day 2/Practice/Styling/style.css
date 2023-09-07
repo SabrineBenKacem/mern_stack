@@ -1,0 +1,5 @@
+h1{background-color: black; color: white;}
+h1 span{color: aqua;}
+h1.span{color: aliceblue;}
+h2{text-align: center;background-color: blueviolet;color: white; font-style: italic ;}
+h3{text-align:end;background-color:rgb(55, 213, 241); text-decoration: underline; }

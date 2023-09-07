@@ -1,0 +1,84 @@
+*{padding: 0;margin: 0;
+font-family: sans-serif;}
+.container{margin: 0 auto;
+    width: 1000px;
+    min-height: 500px;
+    background-color: #062134;
+    padding: 10px;}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+
+}
+span{color: rgb(24,142,216);}
+h1{font-weight: lighter;}
+li{display: inline-block;
+margin-left: 40px;
+}
+li :first-child{ color: rgb (27,67,95);
+}
+main{background-color: white;
+    padding: 10px;
+}
+main img {width: 100%;}
+.sub-content{
+    display: flex
+;justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+}
+.card{background-color: blue;
+width: 30%;
+padding: 10px;}
+.card>img{width: 40px;
+    margin-top: 5px;
+}
+.card>h3{display: inline-block;
+color: white;
+font-size: 20px;
+font-weight: lighter;}
+.card>p{
+    display: inline-block;
+    color: white;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.card>button{
+    background-color: rgb(25,142,216) ;
+    text-align: center;
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 10%;
+}
+.testimonial{
+    margin-top: 10px;
+    display: flex;
+}
+.flex{display: flex;
+justify-content: space-between;
+align-items: center;
+width: 65%;
+margin-top: 10px;}
+.flex>p{margin-left: 10px;}
+.flex-2{
+    background-color: aqua;
+    width: 33%;
+    min-height: 100px;
+    margin-left: 25px;
+}
+footer{ background-color: aquamarine;
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+bottom: 50px;}
+footer>p{
+    margin: 5px;
+}
+.circule{
+    
+}
